@@ -1,0 +1,38 @@
+.side-peak-trigger {
+  height: 40px;
+  width: fit-content;
+  padding: 8px 16px;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+}
+
+.side-peak-viewport {
+  position: relative;
+  display: block;
+  height: 100dvh;
+  width: 600px;
+  background-color: white;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  box-shadow: -2px 0px 6px 4px gray;
+}
+
+.side-peak-viewport-close-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-color: white;
+  padding: 0;
+}
+
+.side-peak-viewport-close-button:hover {
+  border-color: white;
+}
+
+.side-peak-viewport-close-button:focus,
+.side-peak-viewport-close-button:focus-visible {
+  outline-style: none;
+}
